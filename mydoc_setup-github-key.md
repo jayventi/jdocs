@@ -20,7 +20,7 @@ To configure CloudCoreoWebUI to access private Github repositories perform the f
 
 
 1.  Generate SSH keys (skip to step 3. if you have already done this)
-    1. Follow instructions:[Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
+    1. Follow instructions: [Generating a new SSH key and adding it to the ssh-agent](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/)
 
 2.  Add public key to GetHub (skip to step 3. if you have already done this)
     1. Follow GitHub's instructions: [Adding a new SSH key to your GitHub account](https://help.github.com/articles/adding-a-new-ssh-key-to-your-github-account/) 
@@ -32,4 +32,4 @@ To configure CloudCoreoWebUI to access private Github repositories perform the f
     4. Type in a name for the Key Name.
     5. Copy and paste the Private Key Material; this is the content of the private key typically found in their default location, which can be accessed using the following command: cat ~/.ssh/id_rsa.  The default name id_rsa may need to be replaced with the particular private key used with the desired GitHub account if it is different from the default.
     6. If the Private Key format is correct, the ADD button will become clickable.
-    7. Click ADD. If successful, the fingerprint for the key should now appear with its title  
+    7. Click ADD. If successful, the fingerprint for the key should now appear with its title.
