@@ -40,7 +40,7 @@ To Added an AWS Cloud Account to CloudCoreo WebUI perform the following:
 4. Generate an AWS key for this user
     1. If you have not already done this in step 1. follow the instructions [Managing Access Keys for IAM Users](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_credentials_access-keys.html), follow the instructions for creating keys in the section Creating, Modifying, and Viewing Access Keys (AWS Management Console).
     2. Either download the file or copy the Access Key ID and Secret Access Key from the interface.
-5. Add the AWS account to the CloudCoreo WebUI using this the IAM user key
+5. Add the AWS account to the CloudCoreo WebUI using the IAM user key
     1. In CloudCoreo WebUI, select Settings from the left navigation bar.
     2. Select the Cloud Accounts tab.
     3. Click the ADD NEW button.
