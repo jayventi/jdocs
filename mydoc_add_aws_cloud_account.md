@@ -54,9 +54,9 @@ To Adding a AWS Cloud Account to to CloudCoreo WebUI perform the following:
 	5. delete access keys.
 	6. Delete user.
 
+
 AWS Cloud Account Setup Policy
-``` javascript
-{
+```javascript {
   "Version": "2012-10-17",
   "Statement": [
     {
