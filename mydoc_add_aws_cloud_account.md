@@ -9,9 +9,12 @@ sidebar: faq_sidebar
 permalink: faq_add_aws_cloud_account.html
 folder: faq
 toc: false
+<<<<<<< HEAD
 ---
+
+>>>>>>> origin/master
 ### Details  
-The CloudCoreo WebUI can access an AWS account and manage its assets. This is possible once a CloudCoreo WebUI Cloud Account has been set up for an AWS account. 
+The CloudCoreo WebUI can access an AWS account and manage its assets. This is possible once a CloudCoreo WebUI Cloud Account has been set up for an AWS account.
 
 When a Cloud Account is set up CloudCoreo WebUI creates a IAM Role called CloudCoreoAssumedRole assigned to your account. And attaches to CloudCoreoAssumedRole a policy CloudCoreoAssumedRolePolicy which will allow CloudCoreo WebUI to perform its necessary operations in your AWS account. After a Cloud Account has been set up the enabling User is no longer necessary and may be removed. It is recommended that the user is removed as best security practice.
 
@@ -64,7 +67,7 @@ To Adding a AWS Cloud Account to to CloudCoreo WebUI perform the following:
 	2. Select the Cloud Accounts tab.
 	3. Click the ADD NEW button.
 	4. Create the account use any nick name, paste the IAM Access Key ID and Secret Access Key you obtained in step 4.
-	5. Click Create, if the process succeeds, the nickname for the Cloud Account will now appear. 
+	5. Click Create, if the process succeeds, the nickname for the Cloud Account will now appear.
 6. Remove the temporary AWS IAM user
 	1. In the IAM console selected users from the left navigation bar.
 	2. From the list of users select the MyCloudCoreoUser user.
@@ -72,5 +75,3 @@ To Adding a AWS Cloud Account to to CloudCoreo WebUI perform the following:
 	4. Detach the MyCloudCoreoPolicy policy.
 	5. delete access keys.
 	6. Delete user.
-
- 
