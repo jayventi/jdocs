@@ -9,10 +9,8 @@ sidebar: faq_sidebar
 permalink: faq_add_aws_cloud_account.html
 folder: faq
 toc: false
-<<<<<<< HEAD
 ---
 
->>>>>>> origin/master
 ### Details  
 The CloudCoreo WebUI can access an AWS account and manage its assets. This is possible once a CloudCoreo WebUI Cloud Account has been set up for an AWS account.
 
