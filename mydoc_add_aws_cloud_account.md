@@ -56,7 +56,8 @@ To Added an AWS Cloud Account to CloudCoreo WebUI perform the following:
 
 
 AWS Cloud Account Setup Policy:
-```javascript {
+``` javascript 
+{
   "Version": "2012-10-17",
   "Statement": [
     {
