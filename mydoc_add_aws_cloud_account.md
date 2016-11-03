@@ -6,7 +6,7 @@ last_updated: "October 30, 2016"
 summary: How to add a AWS Cloud Account to CloudCoreo WebUI to access your AWS account.
 published: true
 sidebar: faq_sidebar
-permalink: faq_add_aws_cloud_account.html
+permalink: faq_add_aws_cloud_acct.html
 folder: faq
 toc: false
 ---
@@ -27,9 +27,7 @@ To Adding a AWS Cloud Account to to CloudCoreo WebUI perform the following:
 	  2. The name of the user created is arbitrary will use for reference MyCloudCoreoUser
 	  3. You may capture the AWS key at the end of the user creation process or in step 4.
 2. Create a custom policy for the IAM  
-	1.  Use the following script to create the custom policy
-
-
+	1.  Use the script at end of article to create the custom policy
 	2. Follow instructions: [Creating a New Policy](http://docs.aws.amazon.com/IAM/latest/UserGuide/access_policies_create.html), use the create your own policy option.
 	3. The name of the policy is arbitrary here we use MyCloudCoreoPolicy for reference.
 3. Attach the new MyCloudCoreoPolicy policy to the MyCloudCoreoUser usesr.
@@ -55,3 +53,24 @@ To Adding a AWS Cloud Account to to CloudCoreo WebUI perform the following:
 	4. Detach the MyCloudCoreoPolicy policy.
 	5. delete access keys.
 	6. Delete user.
+
+AWS Cloud Account Setup Policy
+``` javascript
+{
+  "Version": "2012-10-17",
+  "Statement": [
+    {
+      "Effect": "Allow",
+      "Action": [
+        "iam:GetUser",
+        "iam:CreatePolicy",
+        "iam:GetPolicy",
+        "iam:CreateRole",
+        "iam:GetRole",
+        "iam:AttachRolePolicy"
+      ],
+      "Resource": "*"
+    }
+  ]
+}
+```
