@@ -16,7 +16,7 @@ The CloudCoreo WebUI can access an AWS account and manage its assets. This is po
 
 When a Cloud Account is setup CloudCoreo WebUI creates an IAM role called CloudCoreoAssumedRole and assigns it to the account. CloudCoreo WebUI attaches to CloudCoreoAssumedRole a policy CloudCoreoAssumedRolePolicy which will allow CloudCoreo WebUI to perform its necessary operations in the AWS account. After a Cloud Account has been set up the enabling IAM user is no longer required and may be removed. It is recommended that the user is removed as best practice.
 
-Process tutorial video [HOW TO CREATE AN AWS USER](http://docs.aws.amazon.com/IAM/latest/UserGuide/id_users_create.html)
+Process tutorial video [HOW TO CREATE AN AWS USER](https://www.youtube.com/watch?v=GYzdPg-8-v0&feature=youtu.be)
 
 ### Adding an AWS Cloud Account to CloudCoreo WebUI
 
